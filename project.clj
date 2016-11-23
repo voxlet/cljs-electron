@@ -3,7 +3,8 @@
   :dependencies [[org.clojure/clojure "1.9.0-alpha14"]
                  [org.clojure/clojurescript "1.9.293"]
                  [figwheel-sidecar "0.5.8"]
-                 [reagent "0.5.1"]]
+                 [org.omcljs/om "1.0.0-alpha47"]
+                 [sablono "0.7.6"]]
   :plugins [[lein-cljsbuild "1.1.4"]]
 
   :clean-targets ^{:protect false} ["resources/main.js"
