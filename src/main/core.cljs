@@ -1,4 +1,4 @@
-(ns electron.core)
+(ns main.core)
 
 (def electron       (js/require "electron"))
 (def app            (.-app electron))

@@ -5,4 +5,4 @@ jdk:
 
 language: clojure
 lein: lein2
-script: lein do clean, cljsbuild once electron-dev, cljsbuild once frontend-dev, clean, cljsbuild once electron-release, cljsbuild once frontend-release
+script: lein do clean, cljsbuild once main-dev, cljsbuild once ui-dev, clean, cljsbuild once main-release, cljsbuild once ui-release

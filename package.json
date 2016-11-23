@@ -1,5 +1,8 @@
 {
   "name": "hello-world",
   "version": "0.1.0",
-  "main": "resources/main.js"
+  "main": "resources/main.js",
+  "devDependencies": {
+    "electron": "^1.4.8"
+  }
 }
